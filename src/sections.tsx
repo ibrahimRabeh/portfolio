@@ -23,6 +23,25 @@ const Projects = () => {
         color: "from-blue-600 to-cyan-500"
       },
       {
+        title: "Arwa",
+        description: "A platform bridging freelance accountants with companies, featuring an AI-powered chatbot for basic accounting needs and intelligent accountant recommendations.",
+        achievement: "🏆 4th Place - Raqeem Hackathon",
+        image: "/arwa.png",
+        demoLink: "https://majestic-frangipane-de9382.netlify.app",
+        githubLink: "https://github.com/ibrahimRabeh/Arwa",
+        tags: ["Flutter", "AI Chatbot", "Firebase"],
+        color: "from-blue-600 to-cyan-500"
+      },  {
+        title: "Arwa",
+        description: "A platform bridging freelance accountants with companies, featuring an AI-powered chatbot for basic accounting needs and intelligent accountant recommendations.",
+        achievement: "🏆 4th Place - Raqeem Hackathon",
+        image: "/arwa.png",
+        demoLink: "https://majestic-frangipane-de9382.netlify.app",
+        githubLink: "https://github.com/ibrahimRabeh/Arwa",
+        tags: ["Flutter", "AI Chatbot", "Firebase"],
+        color: "from-blue-600 to-cyan-500"
+      },
+      {
         title: "Memartech",
         description: "An innovative app connecting architecture firms and designers with clients. Features text-to-3D transformation of client requests, appointment scheduling, and comprehensive search functionality for firms and designers.",
         achievement: "🏆 1st Place - ROSHN Architecture Hackathon",
