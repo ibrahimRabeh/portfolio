@@ -16,7 +16,7 @@ const Projects = () => {
         title: "Arwa",
         description: "A platform bridging freelance accountants with companies, featuring an AI-powered chatbot for basic accounting needs and intelligent accountant recommendations.",
         achievement: "🏆 4th Place - Raqeem Hackathon",
-        image: "/arwa.png",
+        image: "arwa.png",
         demoLink: "https://majestic-frangipane-de9382.netlify.app",
         githubLink: "https://github.com/ibrahimRabeh/Arwa",
         tags: ["Flutter", "AI Chatbot", "Firebase"],
@@ -26,7 +26,7 @@ const Projects = () => {
         title: "Arwa",
         description: "A platform bridging freelance accountants with companies, featuring an AI-powered chatbot for basic accounting needs and intelligent accountant recommendations.",
         achievement: "🏆 4th Place - Raqeem Hackathon",
-        image: "/arwa.png",
+        image: "arwa.png",
         demoLink: "https://majestic-frangipane-de9382.netlify.app",
         githubLink: "https://github.com/ibrahimRabeh/Arwa",
         tags: ["Flutter", "AI Chatbot", "Firebase"],
@@ -35,7 +35,7 @@ const Projects = () => {
         title: "Arwa",
         description: "A platform bridging freelance accountants with companies, featuring an AI-powered chatbot for basic accounting needs and intelligent accountant recommendations.",
         achievement: "🏆 4th Place - Raqeem Hackathon",
-        image: "/arwa.png",
+        image: "arwa.png",
         demoLink: "https://majestic-frangipane-de9382.netlify.app",
         githubLink: "https://github.com/ibrahimRabeh/Arwa",
         tags: ["Flutter", "AI Chatbot", "Firebase"],
@@ -45,7 +45,7 @@ const Projects = () => {
         title: "Memartech",
         description: "An innovative app connecting architecture firms and designers with clients. Features text-to-3D transformation of client requests, appointment scheduling, and comprehensive search functionality for firms and designers.",
         achievement: "🏆 1st Place - ROSHN Architecture Hackathon",
-        image: "/Openningscreen.jpg",
+        image: "Openningscreen.jpg",
         demoLink: "https://drive.google.com/file/d/1RmxfGEQemO4qv_Xui1qpMxTEVMdh8Zfi/view?usp=drivesdk",
         githubLink: "https://github.com/ibrahimRabeh/Memar_tech_test/tree/main",
         tags: ["Flutter", "Firebase", "AI Integration"],
@@ -54,7 +54,7 @@ const Projects = () => {
       {
         title: "Makzon",
         description: "Smart stock management application for supermarkets with AI-driven notifications for stock needs and product suggestions based on seasonal and local trends.",
-        image: "/makzon.jpeg",
+        image: "makzon.jpeg",
         demoLink: "https://superlative-llama-9f5dcc.netlify.app",
         githubLink: "https://github.com/ibrahimRabeh/Mkzoon",
         tags: ["Flutter", "AI", "Analytics"],
@@ -205,7 +205,7 @@ const Projects = () => {
                     <div className="relative mx-auto w-56 lg:w-42 h-90 rounded-xl bg-black p-1">
                       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-20 h-6 bg-black rounded-b-xl" />
                       <img
-                        src={project.image}
+                        src={process.env.PUBLIC_URL + project.image}
                         alt={project.title}
                         className="w-full h-full object-cover rounded-lg"
                       />
